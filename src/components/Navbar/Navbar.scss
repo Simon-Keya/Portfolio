@@ -1,0 +1,27 @@
+/* navbar.scss */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+    li {
+      margin-right: 50px; /* Increase the margin value as desired */
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* Home.scss */
+
+.container {
+  margin: 2rem;
+  padding: 2rem;
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+}

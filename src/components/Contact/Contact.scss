@@ -1,0 +1,39 @@
+/* Contact.scss */
+
+.container {
+  margin: 2rem;
+  padding: 2rem;
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .form {
+    margin-top: 0.5rem;
+
+    .input-group {
+      margin-bottom: 1rem;
+
+      .label {
+        font-weight: bold;
+      }
+
+      .input {
+        width: 50%; /* Adjust the width value as desired */
+        padding: 0.5rem;
+        border: 0.5px solid #ccc;
+        border-radius: 2px;
+      }
+    }
+
+    .textarea {
+      width: 50%; /* Adjust the width value as desired */
+      height: 10rem; /* Adjust the height value as desired */
+      padding: 0.5rem;
+      border: 0.5px solid #ccc;
+      border-radius: 2px;
+      resize: vertical;
+    }
+  }
+}

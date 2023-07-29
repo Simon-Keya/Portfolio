@@ -1,0 +1,24 @@
+/* About.scss */
+
+.container {
+  margin: 2rem;
+  padding: 2rem;
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2rem;
+  }
+}

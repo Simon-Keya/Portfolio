@@ -1,0 +1,48 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.projects-title {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.project-item {
+  width: 300px;
+  margin: 1rem;
+}
+
+.project-item .card {
+  height: 100%;
+}
+
+.project-item .card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.project-item .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-item .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.project-item .card-text {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.project-item .btn {
+  width: 100%;
+}
+
